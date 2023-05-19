@@ -1,34 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
 using Domain.Dto;
-
+using AutoMapper;
+using Domain.Entity;
 
 namespace ServicesCargo
 {
     public class Services:IServices
     {
+        private readonly AutoMapper conversor;
+        public Services()
+        {
+            this.conversor = new AutoMapper();
+        }
         public IList<ShipDto> ObtainShips()
         {
             try
             {
+                var config = new MapperConfiguration(cfg => cfg.CreateMap<Ship, ShipDto>());
+                var mapper = config.CreateMapper();
+                // or
+                
+                
+
                 IList<ShipDto> Ships = new List<ShipDto>();
 
-                ShipDto ship = new ShipDto
+                Ship ship = new Ship
                 {
-                    IdVapor = 1,
-                    NombreVapor = "Vapor Prueba",
-                    YearOfCreation = DateTime.Now.AddDays(-13)
+                    IdShip = 1,
+                   NameShip =  "Vapor Prueba",
+                YearOfCreation = DateTime.Now.AddDays(-13)
                 };
 
-                Ships.Add(ship);
+                ShipDto dto = mapper.Map<ShipDto>(ship);
+                 Ships.Add(dto);
 
-                ShipDto ship1 = new ShipDto
+                Ship ship2 = new Ship
                 {
-                    IdVapor = 2,
-                    NombreVapor = "Vapor Prueba2",
+                    IdShip = 1,
+                    NameShip = "Vapor Prueba",
                     YearOfCreation = DateTime.Now
                 };
-                Ships.Add(ship);
+                ShipDto dto1 = mapper.Map<ShipDto>(ship2);
+                Ships.Add(dto1);
 
                 return Ships;
             }
@@ -77,5 +91,7 @@ namespace ServicesCargo
                 throw ex;
             }
         }
+
+        
     }
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xUXoxz4ddwQjUO6fFQuacLkUFySRFeJzHm0fWOjyP//H1nAFnwTdi7lzF+qsqdFRlsINC/UMA7i8XIlHG8N6Bw==",
+  "dgSpecHash": "omfGQL06P3D36huFFng8aucHTZqJka7uKENv/s9wslpjWgj1g4oHKmgu/sW6sfZRUpwRRqj2NJYWf6cMbCErDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\lmolivella\\source\\repos\\Cargo\\Cargo\\Cargo.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lmolivella\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\lmolivella\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lmolivella\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\lmolivella\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

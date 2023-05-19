@@ -45,7 +45,7 @@ namespace Cargo
                // app.UseSwaggerUI(c => c.SwaggerEndpoint("/v1/swagger.json", "Cargo v1"));
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Cargo v1"));
             }
-
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();

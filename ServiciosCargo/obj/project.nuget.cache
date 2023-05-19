@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cxyoIQSEItj/dj+hvPtt3e33BNGuJquMeTZ+FsETmNaqcN/c8mhSU2+TILQGrZcGnpLYBhzZOfe6fMB7E5/BHA==",
+  "dgSpecHash": "4VWYwXtqNlC+WuiVi4Z591omDqXx1aaA6qouuaWGHCz6Ztd/oWzjc4DuETA/zdWd2klARsLX5msGBqyuSsfbMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\lmolivella\\source\\repos\\Cargo\\ServiciosCargo\\ServicesCargo.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lmolivella\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\lmolivella\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

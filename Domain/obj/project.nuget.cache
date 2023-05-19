@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TnllK1e+AkMPJNO/NaIwj9DhgMf9/GotT19VM2xb6h2hQtouCpoZxQBUvBz2ezRRzlxrjHg3mmYVJVzarS5h4A==",
+  "dgSpecHash": "hLXrMkmsz724tgxFN9lcTS+LJQcEBSwXtMAlEWXBRE4066b634EmHcOiox+78+QRofNuqMzRhQ9TNjCu8IbefQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\lmolivella\\source\\repos\\Cargo\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lmolivella\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\lmolivella\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -10,6 +10,24 @@ namespace ServicesCargo
             try
             {
                 IList<ShipDto> Ships = new List<ShipDto>();
+
+                ShipDto ship = new ShipDto
+                {
+                    IdVapor = 1,
+                    NombreVapor = "Vapor Prueba",
+                    YearOfCreation = DateTime.Now.AddDays(-13)
+                };
+
+                Ships.Add(ship);
+
+                ShipDto ship1 = new ShipDto
+                {
+                    IdVapor = 2,
+                    NombreVapor = "Vapor Prueba2",
+                    YearOfCreation = DateTime.Now
+                };
+                Ships.Add(ship);
+
                 return Ships;
             }
             catch (Exception ex)

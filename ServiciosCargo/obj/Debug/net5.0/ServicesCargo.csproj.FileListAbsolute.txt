@@ -12,3 +12,4 @@ C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\bin\Debug\net5.0\Domain.pd
 C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ServicesCargo.dll
 C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ref\ServicesCargo.dll
 C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ServicesCargo.pdb
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ServicesCargo.csproj.CopyComplete

@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using Domain.Dto;
+
+
 namespace ServicesCargo
 {
-    public class Services
+    public class Services:IServices
     {
         public IList<ShipDto> ObtainShips()
         {
@@ -63,7 +65,7 @@ namespace ServicesCargo
             }
         }
 
-        public bool ModifyName(string Name, int IdShip)
+        public bool ModifyName(int IdShip, string Name)
         {
             try
             {

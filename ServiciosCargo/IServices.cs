@@ -16,6 +16,6 @@ namespace ServicesCargo
 
         bool DeleteShip(int IdShip);
 
-        bool ModifyName(int IdShip,  string Name);
+        bool ModifyName(int IdShip, string Name);
     }
 }

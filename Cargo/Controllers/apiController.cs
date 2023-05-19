@@ -28,8 +28,9 @@ namespace Cargo.Controllers
 
         private readonly ILogger<apiController> _logger;
 
+        [Route("ObtainShips")]
         [HttpGet]
-        public IList<ShipDto> ObtainShips()
+        public IList<ShipDto> Get()
         {
             try
             {
@@ -40,12 +41,12 @@ namespace Cargo.Controllers
 
                 throw;
             }
-           
-           
-        }
 
+
+        }
+        [Route("SaveInformation")]
         [HttpPost]
-        public int SaveInformation(ShipDto Ship)
+        public int Post(ShipDto Ship)
         {
             try
             {
@@ -59,9 +60,9 @@ namespace Cargo.Controllers
 
 
         }
-
+        [Route("DeleteShip")]
         [HttpPost]
-        public bool DeleteShip(int IdShip)
+        public bool Post(int IdShip)
         {
             try
             {
@@ -75,9 +76,9 @@ namespace Cargo.Controllers
 
 
         }
-
+        [Route("ModifyName")]
         [HttpPost]
-        public bool ModifyName(int IdShip, string Name )
+        public bool Post(int IdShip, string Name)
         {
             try
             {

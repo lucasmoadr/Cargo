@@ -1,0 +1,15 @@
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ServicesCargo.csproj.AssemblyReference.cache
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ServicesCargo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ServicesCargo.AssemblyInfoInputs.cache
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ServicesCargo.AssemblyInfo.cs
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ServicesCargo.csproj.CoreCompileInputs.cache
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\bin\Debug\net5.0\ServicesCargo.deps.json
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\bin\Debug\net5.0\ServicesCargo.dll
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\bin\Debug\net5.0\ref\ServicesCargo.dll
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\bin\Debug\net5.0\ServicesCargo.pdb
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\bin\Debug\net5.0\Domain.dll
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\bin\Debug\net5.0\Domain.pdb
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ServicesCargo.csproj.CopyComplete
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ServicesCargo.dll
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ref\ServicesCargo.dll
+C:\Users\lmolivella\source\repos\Cargo\ServiciosCargo\obj\Debug\net5.0\ServicesCargo.pdb
